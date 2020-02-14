@@ -98,7 +98,7 @@
 			<key>Identifier</key>
 			<string>viewControllerName</string>
 			<key>Name</key>
-			<string>Name of Contract:</string>
+			<string>Name of Protocols File:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
