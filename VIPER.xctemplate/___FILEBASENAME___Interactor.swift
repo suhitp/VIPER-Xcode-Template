@@ -11,6 +11,7 @@ import Foundation
 final class ___VARIABLE_moduleName___Interactor: ___VARIABLE_moduleName___InteractorInput {
     
     //MARK: Properties
+    weak var output: ___VARIABLE_moduleName___InteractorOutput?
     
     //MARK: Initialization
     init() {

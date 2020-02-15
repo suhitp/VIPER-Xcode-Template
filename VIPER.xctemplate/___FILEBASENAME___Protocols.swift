@@ -9,29 +9,33 @@
 import Foundation
 import UIKit
 
-//MARK: View
+// MARK: View
 protocol ___VARIABLE_moduleName___ViewInput: AnyObject {
-    //TODO: Declare ViewInput methods
+    // TODO: Declare ViewInput methods
 }
 
-//MARK: Presenter
+// MARK: Presenter
 protocol ___VARIABLE_moduleName___ViewOutput: AnyObject {
-    //TODO: Declare presenter methods
+    // TODO: Declare presenter methods
 }
 
 protocol ___VARIABLE_moduleName___ModuleInput: AnyObject {
-    //MARK: Presenter Variables
+    // MARK: Presenter Variables
     var view: ___VARIABLE_moduleName___ViewInput? { get set }
     var interactor: ___VARIABLE_moduleName___InteractorInput! { get set }
     var router: ___VARIABLE_moduleName___RouterInput! { get set }
 }
 
-//MARK: Interactor
+protocol ___VARIABLE_moduleName___InteractorOutput: AnyObject {
+    // TO-DO: Declare interactor output methods
+}
+
+// MARK: Interactor
 protocol ___VARIABLE_moduleName___InteractorInput: AnyObject {
     //TODO: Declare interactor methods
 }
 
-//MARK: Router
+// MARK: Router
 protocol ___VARIABLE_moduleName___RouterInput: AnyObject {
     //TODO: Declare router methods
 }
