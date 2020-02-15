@@ -19,6 +19,8 @@ struct ___VARIABLE_moduleName___ModuleBuilder: ___VARIABLE_moduleName___Builder 
         let presenter = ___VARIABLE_moduleName___Presenter()
         
         viewController.presenter = presenter
+        interactor.presenter = presenter
+        
         presenter.view = viewController
         presenter.router = router
         presenter.interactor = interactor
