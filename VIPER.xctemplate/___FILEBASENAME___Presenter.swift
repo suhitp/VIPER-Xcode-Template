@@ -3,20 +3,23 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Foundation
 
-final class ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___PresenterInput, ___VARIABLE_moduleName___ModuleInput {
+final class ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___ViewOutput, ___VARIABLE_moduleName___ModuleInput {
 
-    // MARK: Properties
-    private weak var view: ___VARIABLE_moduleName___ViewInput?
-    private let interactor: ___VARIABLE_moduleName___InteractorInput!
-    private let router: ___VARIABLE_moduleName___RouterInput!
+    //MARK: Properties
+    weak var view: ___VARIABLE_moduleName___ViewInput?
+    var router: ___VARIABLE_moduleName___RouterInput!
+    var interactor: ___VARIABLE_moduleName___InteractorInput!
     
-    // MARK: Initialization
-    init() {}
+    //MARK: Initialization
+    init() {
+        
+    }
     
-    //MARK: ___VARIABLE_moduleName___PresenterInput Methods
+    //MARK: ___VARIABLE_moduleName___ViewOutput methods
 }
+

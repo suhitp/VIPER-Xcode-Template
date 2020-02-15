@@ -10,10 +10,13 @@ import Foundation
 
 final class ___VARIABLE_moduleName___Interactor: ___VARIABLE_moduleName___InteractorInput {
     
-    // MARK: Properties
+    //MARK: Properties
     
-    // MARK: Initialization
-    init() {}
+    //MARK: Initialization
+    init() {
+        
+    }
     
-    // TODO: Implement InteractorInput methods
+    //MARK: ___VARIABLE_moduleName___InteractorInput methods
 }
+

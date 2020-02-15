@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
 	<key>DefaultCompletionName</key>
-	<string>VIPERBModule</string>
+	<string>Swift_VIPER_Module</string>
 	<key>Description</key>
 	<string>This generates a new Module using B-VIPER generator. It consists of the viewcontroller, interactor, presenter, router, and protocols file.</string>
 	<key>Kind</key>

@@ -1,18 +1,18 @@
 //
-//  ___FILENAME___
-//  ___PROJECTNAME___
+//  RootViewController.swift
+//  VIPER_Demo
 //
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  ___COPYRIGHT___
+//  Created by Suhit Patil on 15/02/20.
+//  Copyright © 2020 Suhit Patil. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-final class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIABLE_moduleName___ViewInput {
+final class RootViewController: UIViewController, RootViewInput {
 
     //MARK: Properties
-    var presenter: ___VARIABLE_moduleName___ViewOutput!
+    var presenter: RootViewOutput?
     
     //MARK: Initialization
     override init(nibName nibNameOrNil: String? = nil, bundle nibBundleOrNil: Bundle? = nil) {
@@ -40,7 +40,7 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIAB
     
     //Apply Theming for views here
     private func themeViews() {
-        
+        view.backgroundColor = .red
     }
     
     
@@ -49,5 +49,5 @@ final class ___VARIABLE_moduleName___ViewController: UIViewController, ___VARIAB
         
     }
     
-    //MARK: ___VARIABLE_moduleName___ViewInput
+    //MARK: RootViewInput
 }
