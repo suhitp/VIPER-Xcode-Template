@@ -1,3 +1,9 @@
+
+
+<p align="left">
+   <img width="100" height="100" src="https://github.com/suhitp/VIPER-Xcode-Template/blob/master/VIPER.xctemplate/TemplateIcon%402x.png" alt="VIPER-B Template Icon">
+</p>
+
 # VIPER-Xcode-Template
 Xcode Template for generating VIPER-B modules: View, Interactor, Presenter, Router and Builder.
 
