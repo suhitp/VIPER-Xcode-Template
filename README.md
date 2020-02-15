@@ -9,10 +9,10 @@ Xcode Template for generating VIPER-B modules: View, Interactor, Presenter, Rout
 
 # Installation
 
-1. Clone or download the repository
-2. Navigate to Xcode Templates folder: ```~/Library/Developer/Xcode/Templates/```
-3. Create VIPER folder 
-4. Copy and paste the VIPER Module.xctemplate in Templates/VIPER folder
+- Clone or download the repository
+- Navigate to Xcode Templates folder: ```~/Library/Developer/Xcode/Templates/```
+- Create VIPER folder 
+- Copy and paste the VIPER Module.xctemplate in Templates/VIPER folder
 
 # Demo
  
